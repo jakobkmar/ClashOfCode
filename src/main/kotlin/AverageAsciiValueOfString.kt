@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.map { it.toInt() }.average().toInt())
