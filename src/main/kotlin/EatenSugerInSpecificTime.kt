@@ -1,0 +1,1 @@
+fun main() = println((readLine()!!.toInt() * (readLine()!!.toInt() / 60.0)).toInt())
