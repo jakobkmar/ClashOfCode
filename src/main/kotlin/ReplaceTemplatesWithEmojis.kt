@@ -1,4 +1,4 @@
-val emojis = mapOf(
+private val emojis = mapOf(
     ":slight_smile:" to ":)",
     ":disappointed:" to ":(",
     ":loud_laugh:" to "XD",
@@ -8,7 +8,7 @@ val emojis = mapOf(
 
 fun main() = println(readLine()!!.replaceAll(emojis))
 
-fun String.replaceAll(map: Map<String, String>): String {
+private fun String.replaceAll(map: Map<String, String>): String {
     var result = this
     map.forEach { (t, u) -> result = result.replace(t, u) }
     return result
