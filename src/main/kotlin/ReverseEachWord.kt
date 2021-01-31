@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.split(' ').joinToString(" ") { it.reversed() })
