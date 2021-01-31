@@ -1,2 +1,2 @@
-fun main() = println((x() + x()).toString(2))
-fun x() = readLine()!!.toBigInteger(2)
+fun main() = println((readBigInt() + readBigInt()).toString(2))
+private fun readBigInt() = readLine()!!.toBigInteger(2)
