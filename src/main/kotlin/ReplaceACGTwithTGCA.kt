@@ -1,4 +1,4 @@
-val jo = mapOf(
+private val jo = mapOf(
     'A' to 'T',
     'C' to 'G',
     'G' to 'C',
