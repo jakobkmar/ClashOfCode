@@ -1,0 +1,1 @@
+fun main() = println(readLine()!!.toInt().let { it * it * 6 })
