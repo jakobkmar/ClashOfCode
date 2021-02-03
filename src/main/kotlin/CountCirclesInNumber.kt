@@ -1,0 +1,1 @@
+fun main() = print(readLine()!!.sumBy { t -> "06889".count { it == t } })
