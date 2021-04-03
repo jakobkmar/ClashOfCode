@@ -15,6 +15,8 @@ dependencies {
     implementation(kotlin("stdlib"))
 }
 
+java.sourceCompatibility = JavaVersion.VERSION_11
+
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "11"
 }
